@@ -1,0 +1,12 @@
+Membuat Aplikasi sederhana
+
+1. Jadi ada sebuah form "Nama Anda:" lalu ketika user menginputkan nama lalu submit nama tersebut maka outputnya yaitu
+"Hello {nama}!"
+
+2. Daftar Nama Mahasiswa yang bias di tambah dan dihapus. Aplikasi ini terdiri dari:
+- Judul yang berada di atas tengah
+- Nama: dan form input
+
+Lalu di sebelah kiri ada kumpulan data yang telah di submit.
+
+Dan di sebelah kanannya ada tombol tambah dan tombol hapus, tombol tambah bekerja ketika user sudah menginputkan sesuatu dan menekan tombol tambah. Lalu tombol hapus bekerja ketika user mengklik salah satu data yang ada di list dan menekan tombol hapus maka nama mahasiswa tersebut hilang
