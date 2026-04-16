@@ -1,20 +1,61 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="using:_.ViewModels"
+        xmlns:vm="using:DaftarMahasiswaApp.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="_.Views.MainWindow"
+        x:Class="DaftarMahasiswaApp.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="_">
+        Title="Aplikasi Mahasiswa Tuan Baji"
+        Width="650" Height="450">
 
     <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Grid RowDefinitions="Auto, *" Margin="20">
+        
+        <TextBlock Grid.Row="0" 
+                   Text="Sistem Data Mahasiswa Visual" 
+                   FontSize="24" 
+                   FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,20"/>
 
+        <Grid Grid.Row="1" ColumnDefinitions="*, *">
+            
+            <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Margin="0,0,10,0">
+                <ListBox ItemsSource="{Binding DaftarMahasiswa}" 
+                         SelectedItem="{Binding MahasiswaTerpilih}"
+                         Margin="5">
+                </ListBox>
+            </Border>
+
+            <StackPanel Grid.Column="1" Spacing="20" Margin="10,0,0,0" VerticalAlignment="Center">
+                
+                <TextBlock Text="{Binding TeksSapaan}" 
+                           FontSize="20" 
+                           FontWeight="SemiBold" 
+                           Foreground="#4CAF50" 
+                           HorizontalAlignment="Center"
+                           MinHeight="30"/>
+
+                <StackPanel Spacing="5">
+                    <TextBlock Text="Nama Anda:" FontWeight="SemiBold"/>
+                    <TextBox Text="{Binding InputNama}" Watermark="Ketik nama mahasiswa di sini..."/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Spacing="15" HorizontalAlignment="Center">
+                    <Button Content="Tambah" 
+                            Command="{Binding TambahMahasiswaCommand}" 
+                            Background="#2196F3" Foreground="White" Width="100" HorizontalContentAlignment="Center"/>
+                    <Button Content="Hapus" 
+                            Command="{Binding HapusMahasiswaCommand}" 
+                            Background="#F44336" Foreground="White" Width="100" HorizontalContentAlignment="Center"/>
+                </StackPanel>
+                
+            </StackPanel>
+        </Grid>
+    </Grid>
 </Window>
