@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZESu9FzY7Ds=",
+  "dgSpecHash": "K7SG2Onqw9w=",
   "success": true,
-  "projectFilePath": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3/..csproj",
+  "projectFilePath": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3-Fun-PV/..csproj",
   "expectedPackageFiles": [
     "/home/bajilinux/.nuget/packages/avalonia/12.0.1/avalonia.12.0.1.nupkg.sha512",
     "/home/bajilinux/.nuget/packages/avalonia.angle.windows.natives/2.1.25547.20250602/avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",

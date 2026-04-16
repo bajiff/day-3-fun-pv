@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
-namespace DaftarMahasiswaApp.ViewModels;
+namespace _.ViewModels;
 
 // Partial class wajib digunakan agar CommunityToolkit bisa meng-generate kode secara otomatis di belakang layar
 public partial class MainWindowViewModel : ViewModelBase

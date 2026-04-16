@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3/..csproj": {}
+    "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3-Fun-PV/..csproj": {}
   },
   "projects": {
-    "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3/..csproj": {
+    "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3-Fun-PV/..csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3/..csproj",
-        "projectName": ".",
-        "projectPath": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3/..csproj",
+        "projectUniqueName": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3-Fun-PV/..csproj",
+        "projectName": "AplikasiMahasiswa",
+        "projectPath": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3-Fun-PV/..csproj",
         "packagesPath": "/home/bajilinux/.nuget/packages/",
-        "outputPath": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3/obj/",
+        "outputPath": "/home/bajilinux/Documents/Kuliah/S1 TI23C/Mata Kuliah/Semester 6/Pemrograman Visual/Day-3-Fun-PV/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bajilinux/.nuget/NuGet/NuGet.Config"
